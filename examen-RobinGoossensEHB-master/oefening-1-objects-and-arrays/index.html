@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Oefening 1 - examen dev II</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+  </head>
+  <body>
+    <h1>The 10 smartphones</h1>
+    <main>
+      <section>
+        <h2>Filter by brand</h2>
+        <label><input type="radio" name="brand" value="all" checked>All</label>
+        <label><input type="radio" name="brand" value="Apple">Apple</label>
+        <label><input type="radio" name="brand" value="Oneplus">Oneplus</label>
+        <label><input type="radio" name="brand" value="Google">Google</label>
+        <label><input type="radio" name="brand" value="Sony">Sony</label>
+        <h2>Filter by price</h2>
+        <label class="numberLabel">
+          Minimum price
+          <input id="minimumPrice" value="0" type="number"/>
+        </label>
+        <label class="numberLabel">
+          Maximum price
+          <input id="maximumPrice" value="2000" type="number"/>
+        </label>
+      </section>
+      <section id="content_section">
+
+        <article>
+          <div class="imageWrapper">
+            <img src="https://cdn.mos.cms.futurecdn.net/rJFKqhNF7ZEdPBDg6LdQ4K-768-80.png.webp" alt="Iphone 11">
+          </div>
+          <div class="article_content_wrapper">
+            <div>
+              <h3>IPHONE 11</h3>
+              <h4>Apple</h4>
+            </div>
+            <div class="price">€ 500</div>
+          </div>
+        </article>
+        
+      </section>
+    </main>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
